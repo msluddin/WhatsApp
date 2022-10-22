@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { SafeAreaView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { StyleSheet, TextInput } from 'react-native';
 import { AntDesign, MaterialIcons } from '@expo/vector-icons';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const InputBox = () => {
   const [text, setText] = useState('');
